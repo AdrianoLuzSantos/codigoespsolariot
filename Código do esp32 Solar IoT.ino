@@ -4,10 +4,10 @@
 #include <WiFiUdp.h>
 #include <EmonLib.h>
 
-#define WIFI_SSID "AdrianoLuz" // "WIFI-ADRIANO" rede de casa
-#define WIFI_PASSWORD "12345678" // "WIFI@ADRIANO" senha 
+#define WIFI_SSID "Sua Rede Wifi"
+#define WIFI_PASSWORD "Senha do Wifi"
 #define FIREBASE_HOST "https://esp-solar-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "AIzaSyCS7vTqiIYfI4EkfDpvNdKSoVDW9tcDsUU"
+#define FIREBASE_AUTH "Autenticação do Token do Firebase"
 
 FirebaseConfig config;
 FirebaseAuth auth;
